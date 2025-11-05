@@ -28,3 +28,7 @@ input{
     text-align: left;
     font-weight: bold;
 }
+
+#diceResult{
+    margin: 25px;
+}
