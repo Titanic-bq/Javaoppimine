@@ -23,6 +23,6 @@ console.log(jsonString)
  */
 
 
-fetch("people.json")
+/*fetch("people.json")
  .then(response => response.json())
- .then(values => values.forEach(value => console.log(value.isTöö)));
+ .then(values => values.forEach(value => console.log(value.isTöö))); */
