@@ -1,0 +1,16 @@
+[{
+    "nimi": "Bob",
+    "vanus": "30",
+    "töö" : true
+},
+{
+    "nimi": "Mart",
+    "vanus": "50",
+    "töö" : true
+},
+{
+    "nimi": "Annel",
+    "vanus": "20",
+    "töö" : false
+}
+]
