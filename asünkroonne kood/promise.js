@@ -1,14 +1,31 @@
 function walkDog(){
 
-    setTimeout(() => {
-        console.log("You walk the dog");
-    }, 1500);
+ return new Promise((resolve, reject) => {
+ setTimeout (() => {
+    const dogwalked = true;
+
+    if(dogwalked){
+        resolve("You walked the dog");
+    }
+    else{
+        reject("You did not walk the dog");
+    }
+ }, 1500);
+ });
 }
 
 function cleanKitchen (callback){
    return new Promise ((resolve,reject) => {
     setTimeout(() => {
-        resolve("You clean the kitchen");
+
+        const kitchenCleaned = true;
+
+        if(kitchenCleaned){
+            resolve("You cleaned the kitchen");
+        }
+        else{
+            reject("You did not clean the kitchen");
+        }
     }, 2500);
    });
 }
@@ -16,7 +33,15 @@ function cleanKitchen (callback){
 function takeOutTrash (callback){
    return new Promise ((resolve,reject) => {
     setTimeout(() => {
-        resolve("You take out trash");
+       
+        const trashTakenOut = true;
+
+        if (trashTakenOut){
+            resolve("You took out trash");
+        }
+        else{
+            reject("You did not");
+        }
     }, 400);
    });
 }
